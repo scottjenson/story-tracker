@@ -1,0 +1,22 @@
+{
+  "name": "ai-daily-briefing",
+  "topic_description": "AI stories",
+  "card_title": "AI Narrative Tracker",
+  "card_subtitle": "Ongoing AI, open-source & reverse-engineering threads",
+  "lookback_hours": 48,
+  "lanes": {
+    "hn": {
+      "queries": ["LLM", "AI model", "GPT", "Claude", "Gemini", "open source model", "machine learning", "AI", "AI agent", "inference", "artificial intelligence", "reverse engineer", "distillation", "coding assistant"],
+      "min_points": 10
+    },
+    "gnews": {
+      "queries": ["artificial intelligence", "LLM", "OpenAI OR Anthropic OR DeepMind", "AI model release", "AI funding", "AI regulation", "Nvidia AI chips"]
+    },
+    "arxiv": { "cats": "cat:cs.AI OR cat:cs.LG OR cat:cs.CL" },
+    "reddit": { "subreddits": ["LocalLLaMA", "MachineLearning", "programming", "reverseengineering", "rust"] },
+    "github": { "topics": [] }
+  },
+  "relevance_terms": ["llm", "gpt", "claude", "gemini", "chatgpt", "model", "agent", "machine learning", "neural", "inference", "transformer", "diffusion", "anthropic", "openai", "deepseek", "mistral", "llama", "deepmind", "nvidia", "gpu", "copilot", "artificial intelligence", "grok", "reverse engineer", "decompil", "distillation", "jailbreak", "coding assistant", "developer tool"],
+  "exclude_regex": null,
+  "pool_caps": { "Hacker News": 24, "Google News": 16, "arXiv": 4, "reddit": 12, "premium": 4 }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "desktop-ux-briefing",
+  "topic_description": "desktop-UX stories (desktop environments, window managers, tiling/compositing paradigms, infinite-canvas and spatial desktops, malleable/local-first software)",
+  "card_title": "Desktop UX Tracker",
+  "card_subtitle": "Ongoing desktop environments, window managers & canvas experiments",
+  "lookback_hours": 48,
+  "lanes": {
+    "hn": {
+      "queries": ["window manager", "wayland", "desktop environment", "GNOME", "KDE", "COSMIC desktop", "Hyprland", "Sway", "i3", "Linux desktop", "infinite canvas"],
+      "min_points": 10
+    },
+    "gnews": {
+      "queries": ["window manager", "Linux desktop", "KDE Plasma", "GNOME", "COSMIC desktop", "wayland", "infinite canvas"]
+    },
+    "arxiv": { "cats": null },
+    "reddit": { "subreddits": ["linux", "hyprland", "wayland", "macos"] },
+    "github": { "topics": ["window-manager", "wayland-compositor", "tiling-window-manager", "desktop-environment"] }
+  },
+  "relevance_terms": ["window manager", "tiling", "wayland", "x11", "gnome", "kde", "cosmic", "hyprland", "sway", "plasma", "compositor", "infinite canvas", "spatial", "local-first", "desktop", "workspace", "wm", "dock", "taskbar", "command palette", "virtual desktop", "canvas"],
+  "exclude_regex": {
+    "pattern": "\\bnotion\\b|\\bmonday\\.com\\b|\\bclickup\\b|\\btodoist\\b|\\basana\\b|\\btrello\\b|\\bvr\\b|\\bvirtual reality\\b|\\bmetaverse\\b|\\boculus\\b|\\bxr\\b|\\bteardown\\b|\\bifold\\b|\\bgame\\b|\\bgaming\\b|\\bgodot\\b|\\bunity\\b|\\bminecraft\\b|\\bsecurity patch\\b|\\bsecurity update\\b|\\bvulnerability\\b|task manager|project management|saas|\\bwarriors\\b|\\bfootball\\b|\\bbasketball\\b|\\bbaseball\\b|\\bhockey\\b",
+    "flags": "ignorecase"
+  },
+  "pool_caps": { "Hacker News": 24, "Google News": 16, "GitHub": 6, "reddit": 10, "premium": 4 }
+}
